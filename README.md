@@ -1,4 +1,4 @@
-# Pillcase Backend Nest JS
+# Web Nest JS
 
 ## Setup
 `cp .env.example .env`
