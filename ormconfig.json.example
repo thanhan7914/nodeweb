@@ -1,0 +1,14 @@
+{
+  "type": "mysql",
+  "host": "127.0.0.1",
+  "port": 8306,
+  "username": "pcuser",
+  "password": "password",
+  "database": "pcdevdb",
+  "entities": ["src/app/**/dto/*.entity.ts"],
+  "migrationsTableName": "nest_migrations",
+  "migrations": ["src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "src/database/migrations"
+  }
+}
